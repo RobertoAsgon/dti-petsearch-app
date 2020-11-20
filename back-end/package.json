@@ -1,0 +1,41 @@
+{
+  "name": "dti-petsearch-app-back-end",
+  "version": "1.0.0",
+  "description": "A full-stack web application for search the best pet shop.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertoAsgon/dti-petsearch-app.git"
+  },
+  "keywords": [
+    "dti",
+    "petsearch"
+  ],
+  "author": "Roberto Assis Gonçalves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertoAsgon/dti-petsearch-app/issues"
+  },
+  "homepage": "https://github.com/RobertoAsgon/dti-petsearch-app#readme",
+  "dependencies": {
+    "@hapi/boom": "^9.1.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "moment": "^2.29.1",
+    "momment": "0.0.1",
+    "mongodb": "^3.5.9",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}

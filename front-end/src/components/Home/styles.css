@@ -1,0 +1,91 @@
+.textfield-data {
+  width: 250px;
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#img-logo {
+  max-width: 450px;
+  max-height: 450px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  width: 600px;
+  max-width: 500px;
+}
+
+.form-container > h1 {
+  font-family: Roboto;
+  color: rgb(245, 105, 210);
+  font-size: 28pt;
+  margin: 25px;
+}
+
+.form-container > button {
+  background-color: rgba(235, 108, 214, 0.13);
+  border-bottom: 2px solid #d41283c7;
+  color: rgb(15, 15, 15);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 225px;
+  border-radius: 5px;
+  font-size: 24pt;
+  font-weight: 600;
+  padding: 5px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.shop-list-container {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  padding-top: 15px;
+}
+
+.petshop-card {
+  display: flex;
+  margin: 15px;
+}
+
+.petshop-card > th,td {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 500px) 
+{
+  #img-logo {
+    width: 325px;
+    align-items: center;
+  }
+  .form-container > h1 {
+    font-size: 22pt;
+  }
+}
+
+@media (max-width: 350px) 
+{
+  #img-logo {
+    width: 275px;
+    align-items: center;
+  }
+
+  .form-container > h1 {
+    font-size: 18pt;
+  }
+}
