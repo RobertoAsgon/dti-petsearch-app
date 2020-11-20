@@ -18,11 +18,24 @@ Para rodar a aplicação localmente, você precisa ter instalado em sua maquina:
 
 ### Instalação 💻
 
-Para facilitar a instalação, adicionei um script no package.json que permite a instalação e inicialização do back-end e front-end com apenas um único comando. 
+Você deve se certificar de, instalar e iniciar não somente o back-end, mas também o front-end.
+No diretório raíz do projeto execute os seguintes comandos.
 
 ```sh
+$ cd back-end
+$ npm install
 $ npm start
 ```
+
+Em um novo terminal, no diretório raíz do projeto, execute os seguintes comandos.
+
+```sh
+$ cd front-end
+$ npm install
+$ npm start
+```
+
+O front-end se comunicará com o back-end por meio de padrões definidos pela arquitetura REST.
 
 License
 ----
