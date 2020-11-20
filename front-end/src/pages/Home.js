@@ -4,6 +4,7 @@ import PetShopCard from '../components/Home/PetShopCard';
 import logoPetsearch from '../assets/logo-petsearch.png';
 import Header from '../components/Header';
 import '../components/Home/styles.css';
+import '../components/Header/styles.css';
 import TextField from '@material-ui/core/TextField';
 import { Search } from '@material-ui/icons';
 import {
@@ -101,7 +102,7 @@ const Home = () => {
 
         {
           bestPetShop &&
-          <div className="shop-list-container">
+          <div className="shop-list-container fade-in-bottom">
           <TableContainer>
             <Table size="small" aria-label="caption table">
               <TableHead style={{background: "rgb(245, 105, 210)"}}>
